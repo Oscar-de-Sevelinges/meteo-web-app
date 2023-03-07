@@ -1,0 +1,54 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    background-image: url('img1.jfif');
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+.card {
+    background: #000000d0;
+    color: #fff;
+    padding: 1em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    border-radius: 15px;
+    width: 40%;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+}
+
+.search button {
+    border-radius: 10px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+}
